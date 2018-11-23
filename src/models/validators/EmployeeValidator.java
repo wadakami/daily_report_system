@@ -60,7 +60,7 @@ public class EmployeeValidator {
         if(password_check_flag && (password == null || password.equals(""))) {
             return "パスワードを入力してください。";
         }
-        return null;
+        return "";
     }
 
 
