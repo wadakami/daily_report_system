@@ -19,7 +19,7 @@
 			<br /><br />
 
 			<label for="password">パスワード</label><br />
-			<input type="text" name="password" value="${password}" />
+			<input type="password" name="password" />
 			<br /><br />
 
 			<input type="hidden" name="_token" value="${_token}" />
